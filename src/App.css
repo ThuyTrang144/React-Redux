@@ -21,6 +21,18 @@
 .App-intro {
   font-size: large;
 }
+.rating {
+  list-style: none;
+  width: 130px;
+  margin: auto;
+  height: 20px;
+}
+.rating li {
+  float: left;
+}
+.active-rate i{
+  color: yellow;
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
